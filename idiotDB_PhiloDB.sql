@@ -27,7 +27,7 @@ CREATE TABLE `PhiloDB` (
   `Name` varchar(45) NOT NULL,
   `Birth_Year` int DEFAULT NULL COMMENT 'negative integers represent B.C. e.g. "470 B.C." = -470',
   `Death_Year` int DEFAULT NULL,
-  `NationalityID` int DEFAULT NULL,
+  `NationalityID` int DEFAULT NULL COMMENT 'Nationalties of Philosophers - linked to `Nationalities` Table',
   `BranchID` int DEFAULT NULL COMMENT 'AKA Branches of Philosophy - other table lists them',
   `Most_Famous_Book` varchar(90) DEFAULT NULL,
   `Notable_Ideas_or_Famous_Quotes` text,
@@ -59,4 +59,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-29 19:47:43
+-- Dump completed on 2023-07-30 21:57:57
