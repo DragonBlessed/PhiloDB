@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: idiotDB
 -- ------------------------------------------------------
--- Server version	8.0.33-0ubuntu0.22.04.2
+-- Server version	8.0.33-0ubuntu0.22.04.4
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -27,7 +27,7 @@ CREATE TABLE `Branches` (
   `BranchName` varchar(255) NOT NULL,
   `Description` text,
   PRIMARY KEY (`BranchID`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `Branches` (
 
 LOCK TABLES `Branches` WRITE;
 /*!40000 ALTER TABLE `Branches` DISABLE KEYS */;
-INSERT INTO `Branches` VALUES (1,'Nietzschean','Emphasizes the affirmation of life, the rejection of traditional moral values, and the pursuit of individual greatness through the will to power.'),(2,'Socratic','focused on the pursuit of wisdom and truth through critical questioning and self-examination.'),(3,'Platonism','centered on the belief in a realm of abstract Forms as the true reality, and the concept of knowledge as innate and recollected.'),(4,'Aristotelian','emphasizes the study of the natural world, empirical observation, and the pursuit of virtue through moderation and the golden mean.'),(5,'Cynicism','advocates a simple, ascetic lifestyle in accordance with nature, rejects societal conventions and values self-sufficiency and virtue.'),(6,'Metaphysics','explores the fundamental nature of reality, including the relationship between mind and matter, existence, and causality.'),(7,'Rationalism','holds reason and innate knowledge as the primary sources of truth and understanding, as opposed to sensory experience.'),(8,'Empiricism','emphasizes the importance of sensory experience and observation in gaining knowledge and understanding the world.'),(9,'Political Philosophy','investigates questions about governance, authority, justice, and the organization of societies and political systems.'),(10,'Idealism','holds that reality is fundamentally mental or spiritual in nature, and that ideas and consciousness shape the material world.');
+INSERT INTO `Branches` VALUES (1,'Nietzschean','Emphasizes the affirmation of life, the rejection of traditional moral values, and the pursuit of individual greatness through the will to power.'),(2,'Socratic','focused on the pursuit of wisdom and truth through critical questioning and self-examination.'),(3,'Platonism','centered on the belief in a realm of abstract Forms as the true reality, and the concept of knowledge as innate and recollected.'),(4,'Aristotelian','emphasizes the study of the natural world, empirical observation, and the pursuit of virtue through moderation and the golden mean.'),(5,'Cynicism','advocates a simple, ascetic lifestyle in accordance with nature, rejects societal conventions and values self-sufficiency and virtue.'),(6,'Metaphysics','explores the fundamental nature of reality, including the relationship between mind and matter, existence, and causality.'),(7,'Rationalism','holds reason and innate knowledge as the primary sources of truth and understanding, as opposed to sensory experience.'),(8,'Empiricism','emphasizes the importance of sensory experience and observation in gaining knowledge and understanding the world.'),(9,'Political Philosophy','investigates questions about governance, authority, justice, and the organization of societies and political systems.'),(10,'Idealism','holds that reality is fundamentally mental or spiritual in nature, and that ideas and consciousness shape the material world.'),(11,'Confucianism','emphasizes personal and governmental morality, the correctness of social relationships, justice, and sincerity, often guiding social harmony and individual virtue in East Asian cultures.'),(12,'Scientific Philosophy','emphasizes the application of the scientific method and empirical evidence to the exploration and understanding of philosophical concepts and questions.');
 /*!40000 ALTER TABLE `Branches` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-28  0:30:03
+-- Dump completed on 2023-08-03 22:45:35
